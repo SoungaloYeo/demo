@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "demoApp",
+    "packageName": "demo.ci",
+    "packageFolder": "demo/ci",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "OTQ0MWQ1ZTMxMGU5NGJkNThhYWJlYzUyYjA5NTllZTFiZmZkOTgzM2Q4YWQ0M2U2YzdiOTIyMzU1YmJlOWJjZWJjNmY0NGFjMWE4Nzc0YmQwNjQ3ZDNmNTY5M2QxYTM5YjRjZGI1ZWFkZWRiYzNmNTY3ZGUzOTA2OGQ1YTNhOWE=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "SoungaloYeo",
+  "repository-name": "demo"
+}
